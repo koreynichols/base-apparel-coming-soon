@@ -5,12 +5,44 @@
     --primary-soft-red: hsl(0, 93%, 68%);
     --neutral-dark-grayish-red: hsl(0, 6%, 24%);
     --main-gradient: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
-    --secondary-gradient: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    --button-gradient: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
 }
 
 * {
     margin: 0;
     padding: 0;
+}
+
+main {
+    background: var(--main-gradient);
+    height: 100svh;
+    font-family: 'Josefin Sans';
+}
+
+.logo {
+    padding: 1.5rem;
+}
+
+.logo img{
+    width: 33%
+}
+
+.hero {
+    width: 90%;
+
+}
+.hero img {
+    object-fit: fill;
+}
+
+.content {
+    max-width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 .attribution { font-size: 11px; text-align: center; }
